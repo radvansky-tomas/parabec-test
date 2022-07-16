@@ -5,10 +5,10 @@
 // *********************************************************************************
 
 import 'package:flutter/material.dart';
-import 'package:hello_world2/widgets/page_1/counter_value_text.g.dart';
+import 'package:hello_world3/widgets/page_1/counter_value_text.g.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:hello_world2/widgets/page_1/custom/counter_button_custom.dart';
-import 'package:hello_world2/widgets/page_1/custom/counter_value_holder_custom.dart';
+import 'package:hello_world3/widgets/page_1/custom/counter_button_custom.dart';
+import 'package:hello_world3/widgets/page_1/custom/counter_value_holder_custom.dart';
 
 class MyAppScreen extends StatefulWidget {
   const MyAppScreen({
@@ -43,7 +43,7 @@ class _MyAppScreen extends State<MyAppScreen> {
                   height: 95.0,
                   child: Image.asset(
                     'assets/images/background.png',
-                    package: 'hello_world2',
+                    package: 'hello_world3',
                     height: 95.0,
                     width: MediaQuery.of(context).size.width * 1.0,
                     fit: BoxFit.fitWidth,
@@ -90,7 +90,7 @@ class _MyAppScreen extends State<MyAppScreen> {
                       height: 70.0,
                       child: Image.asset(
                         'assets/images/ellipse1.png',
-                        package: 'hello_world2',
+                        package: 'hello_world3',
                         height: 70.0,
                         width: 70.0,
                         fit: BoxFit.none,
